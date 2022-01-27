@@ -1,13 +1,30 @@
 body{
-    margin: 10px;
+    margin: auto;
+    background-image: url("https://i.ibb.co/rZ7QxV3/nature.jpg");
+    background-size: 100% 1550px;   
 }
 
-/*Social Media links*/
+#header{
+    border: rgb(26, 9, 144);
+    border-style: double;
+}
+
+#name{
+   text-align: left;
+   color: rgb(229, 181, 32);
+   margin-left: 50px;
+   font-size: 20px;
+   font-family: Cambria;
+}
 
 #social{
-    float: right;
-    height: 40px;
-    margin: none;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .slogo{
@@ -15,110 +32,65 @@ body{
     width: 40px;
 }
 
-a{
-    text-decoration: none;
-    margin: none;
-}
-/*My name*/
-#name{
-    color: rgb(26, 238, 238);
-    background-color: black;
-    text-align: left;
-    height: 40px;
-    font-size: 20px;
-    font-family: Cambria;
-    margin-left: 10px;
-}
-
-/*My Picture*/
-
-#me{
-    height: 475px;
-    width: 400px;
-    margin-top: 20px;
-    float: right;
-    display: block;
-    margin-top: 50px;
+#picture{
+    float: left;
+    margin-left: 30px;
+    border: rgb(51, 120, 133);
     border-style: groove;
     border-width: 5px;
+    background-image: url("https://i.ibb.co/9hfXKC3/Star.png");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    margin-top: 70px;
 }
 
-/*Something about me*/
-
-#something{
+#sam{
+    float: right;
     text-align: center;
-    display: block;
     font-size: 26px;
-    margin-top: 50px;
-    float: left;
+    color: rgb(13, 44, 8);
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-top: 80px;
 }
 
-/*My Skillset*/
-
-#skills{
-    display: block;
+#headskill{
+    color: rgb(8, 7, 221);
+    font-size: 30px;
     text-align: center;
+    margin-top: 360px;
 }
 
 .skill{
     height: 100px;
     width: 100px;
+    border: darkseagreen;
     border-style: inset;
-    border-color: black;
-    border-width: 2px;
+    background-color: white;
 }
 
 #skilll{
     height: 100px;
     width: 200px;
+    border: darkseagreen;
     border-style: inset;
-    border-color: black;
-    border-width: 2px;
+    background-color: white;
 }
 
-/*My Academic details*/
-
-#education{
-    margin-top: 40px;
-    margin-left: 10px;
-    display: block;
+#skil{
+    margin-left: 500px;
 }
 
-#table{
-    margin-left: 150px;
-    float: left;
-    text-align: center;
-    display: block;
-}
-
-.thead{
-    color: burlywood;
-    background-color: black;
-}
-
-.tbody{
-    font-style: italic;
-    color: darkgoldenrod;
-    background-color:darkblue;
-}
-
-#certificates{
-    margin-left: 320px;
-    display: inline-block;
-}
-
-.cert{
-    height: 100px;
-    width: 100px;
-}
-
-/*My Address*/
-
-#map{
-    display: block;
+#headmap{
+    color: rgb(8, 7, 221);
+    font-size: 30px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 100px;
 }
 
 #footer{
+    color: wheat;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
