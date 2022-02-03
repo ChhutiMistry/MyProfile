@@ -5,8 +5,8 @@ body{
 }
 
 #header{
-    border: rgb(26, 9, 144);
-    border-style: double;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(51, 120, 133);
 }
 
 #name{
@@ -18,7 +18,7 @@ body{
 }
 
 #social{
-    text-align: right;
+    float: right;
     margin-top: 5px;
     margin-right: 10px;
 }
@@ -41,7 +41,7 @@ a{
     background-image: url("https://i.ibb.co/9hfXKC3/Star.png");
     background-repeat: no-repeat;
     background-size: 100% 600px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 #sam{
@@ -50,8 +50,7 @@ a{
     font-size: 26px;
     color: rgb(13, 44, 8);
     margin-right: 15px;
-    margin-top: 10px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #headskill{
