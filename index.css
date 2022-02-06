@@ -10,17 +10,19 @@ body{
 }
 
 #name{
-   text-align: left;
    color: rgb(229, 181, 32);
-   margin-left: 50px;
    font-size: 20px;
    font-family: Cambria;
+   animation: magnify 2s;
+}
+
+@keyframes magnify {
+    100% {transform: scale(-1.0)}
 }
 
 #social{
     float: right;
-    margin-top: 5px;
-    margin-right: 10px;
+    margin-top: 10px;
 }
 
 a{
@@ -30,38 +32,63 @@ a{
 .slogo{
     height: 40px;
     width: 40px;
+    animation: swing 4s;
+    animation: magnify 2s;
+}
+
+@keyframes swing {
+    0% {transform: scale(1.0)}
+    10% {transform: rotate(0deg)}
+    20% {transform: rotate(15deg)}
+    30% {transform: rotate(30deg)}
+    40% {transform: rotate(15deg)}
+    50% {transform: rotate(0deg)}
+    60% {transform: rotate(-15deg)}
+    70% {transform: rotate(-30deg)}
+    80% {transform: rotate(-15deg)}
+    90% {transform: rotate(0deg)}
+    100% {transform: scale(2.0)}
 }
 
 #picture{
     float: left;
-    margin-left: 30px;
     border: rgb(51, 120, 133);
     border-style: groove;
     border-width: 5px;
     background-image: url("https://i.ibb.co/9hfXKC3/Star.png");
     background-repeat: no-repeat;
-    background-size: 100% 600px;
+    background-size: 100% 100%;
     margin-top: 40px;
+}
+
+#mypic{
+    height: 100%;
+    width: 100%;
 }
 
 #sam{
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
     color: rgb(13, 44, 8);
-    margin-right: 15px;
-    margin-top: 40px;
+    margin-top: 4%;
 }
 
 #headskill{
-    color: rgb(8, 7, 221);
-    font-size: 30px;
+    color: rgb(39, 9, 65);
+    font-family: Lucida Sans;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 40px;
+}
+
+#skillset{
+    margin-left: 4%;
 }
 
 .skill{
     height: 100px;
     width: 100px;
+    margin-left: 1%;
+    margin-top: 2%;
     border: darkseagreen;
     border-style: inset;
     background-color: white;
@@ -70,21 +97,19 @@ a{
 #skilll{
     height: 100px;
     width: 200px;
+    margin-left: 1%;
+    margin-top: 2%;
     border: darkseagreen;
     border-style: inset;
     background-color: white;
 }
 
-#skil{
-    margin-left: 500px;
-}
-
 #headmap{
-    color: rgb(8, 7, 221);
-    font-size: 30px;
+    color: rgb(238, 235, 34);
+    font-family: Lucida Sans;
     text-align: left;
-    margin-top: 80px;
-    margin-left: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 #footer{
@@ -93,7 +118,8 @@ a{
     font-size: 30px;
 }
 
-@media screen and (max-width:1512px){
+/*
+@media screen and (max-width:915px){
 
     #sam{
         font-size: 24px;
@@ -109,88 +135,4 @@ a{
         width: 90px;
     }
 }
-
-@media screen and (max-width:1450px){
-
-    #sam{
-        font-size: 22px;
-        margin-top: 50px;
-    }
-
-    #headskill{
-        margin-top: 100px;
-    }
-
-    .skill{
-        height: 80px;
-        width: 80px;
-    }
-}
-
-@media screen and (max-width:1350px){
-
-    #sam{
-        font-size: 20px;
-        margin-top: 50px;
-    }
-
-    #headskill{
-        margin-top: 100px;
-    }
-
-    .skill{
-        height: 70px;
-        width: 70px;
-    }
-}
-
-@media screen and (max-width:1280px){
-
-    #sam{
-        font-size: 18px;
-        margin-top: 50px;
-    }
-
-    #headskill{
-        margin-top: 100px;
-    }
-
-    .skill{
-        height: 60px;
-        width: 60px;
-    }
-}
-@media screen and (max-width:1210px){
-
-    #sam{
-        font-size: 16px;
-        margin-top: 50px;
-    }
-
-    #headskill{
-        margin-top: 100px;
-    }
-
-    .skill{
-        height: 50px;
-        width: 50px;
-    }
-}
-
-@media screen and (max-width:1100px){
-
-    #sam{
-        text-align: center;
-        font-size: 20px;
-        margin-top: 600px;
-    }
-
-    #headskill{
-        margin-top: 50px;
-    }
-
-    .skill{
-        height: 100px;
-        width: 100px;
-    }
-}
+*/
