@@ -81,21 +81,21 @@ a{
 }
 */
 .aboutme{
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     color: black;
 }
 
 #table{
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 3%;
     color: black;
 }
 
 .thead{
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 #tabledata{
@@ -159,7 +159,7 @@ a{
 }
 
 .contact{
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
     color: black;
     font-family: Verdana;
