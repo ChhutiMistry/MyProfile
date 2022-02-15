@@ -9,19 +9,27 @@ header{
 
 #headername{
     float: left;
-    font-size: 30px;
-    font-family: Georgia;
+    color: #5b1666;
+}
+
+#hname{
+    font-size: 40px;
+    font-family: Geneva;
+}
+
+#clickg{
+    font-size: 20px;
+    font-weight: bolder;
     color: #5b1666;
 }
 
 #social{
-    text-align: right;
+    float: right;
 }
 
 .slogo{
-    height: 40px;
-    width: 40px;
-    margin-top: 1%;
+    height: 50px;
+    width: 50px;
 }
 
 a{
@@ -36,10 +44,10 @@ a{
     width: 100%;
 }
 
-#welword{
+.welthank{
+    font-size: 100px;
     text-align: center;
     color: aliceblue;
-    font-size: 100px;
     font-family: Cambria;
 }
 
@@ -154,15 +162,57 @@ a{
     margin-bottom: 3%;
 }
 
-.cont{
+#contactme{
     margin-top: 3%;
 }
 
+#formheadd{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.forrm{
+    font-size: 20px;
+}
+
+.geender{
+    font-size: 15px;
+    margin-left: 3%;
+}
+
+#natureback{
+    background-image: url("https://i.ibb.co/GVxdWq9/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 145%;
+}
+
+#formm{
+    margin-top: 1%;
+}
+
+#thankback{
+    background-image: url("https://i.ibb.co/k4rV8XY/Blue.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contactt{
+    font-size: 30px;
+    color: ghostwhite;
+    font-family: Verdana;
+}
+
 .contact{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     color: black;
     font-family: Verdana;
+    font-weight: bold;
+}
+
+#submitt{
+    float: right;
+    font-size: 20px;
 }
 
 #copyright{
