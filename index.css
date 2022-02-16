@@ -183,7 +183,8 @@ a{
 #natureback{
     background-image: url("https://i.ibb.co/GVxdWq9/nature.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 145%;
+    background-size: 100% 103%;
+    height: 300px;
 }
 
 #formm{
@@ -194,6 +195,8 @@ a{
     background-image: url("https://i.ibb.co/k4rV8XY/Blue.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 .contactt{
@@ -217,11 +220,10 @@ a{
 
 #copyright{
     font-size: 30px;
-    color: whitesmoke;
+    color: #051c38;
     text-align: center;
     font-weight: bolder;
     border-top: solid;
     border-top-color: black;
     border-top-width: 2px;
-    margin-top: 3%;
 }
