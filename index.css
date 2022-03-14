@@ -13,7 +13,8 @@ header{
 
 #hname{
     font-size: 40px;
-    font-family: Geneva;
+    font-family: Georgia;
+    font-weight: 500;
 }
 
 #clickg{
@@ -53,7 +54,7 @@ a{
 
 #picture{
     border: groove;
-    border-color: rgb(8, 58, 58);
+    border-color: #083a3a;
     border-width: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -68,7 +69,7 @@ a{
 #name{
     text-align: center;
     font-size: 50px;
-    color: rgb(6, 31, 53);
+    color: #061f35;
     border-bottom: solid;
     border-bottom-color: black;
     border-bottom-width: 2px;
@@ -82,12 +83,13 @@ a{
 }
 
 .heads:hover{
-    color: rgb(182, 182, 212);
-    box-shadow: 28px 28px 50px rgb(71 98 127);
+    color: #b6b6d4;
+    box-shadow: 28px 28px 50px #47627f;
 }
 
 .aboutme{
     font-size: 40px;
+    font-family: Garamond;
     text-align: center;
     color: black;
 }
@@ -108,6 +110,19 @@ a{
     font-family: Segoe UI;
     font-weight: bold;
     color: rgb(20, 17, 17);
+}
+
+#academicpicm{
+    text-align: center;
+}
+
+.academicpic{
+    height: 600px;
+    width: 80%;
+    margin-top: 2%;
+    border-style: groove;
+    border-color: #746262;
+    border-width: 10px;
 }
 
 .skill{
@@ -209,14 +224,14 @@ a{
 }
 
 #formheadd{
-    color:rgb(93, 37, 146);
+    color:#4b1b79;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
 }
 
 .forrm{
-    color:rgb(37, 48, 146);
+    color:#253092;
     font-size: 25px;
     font-weight: bold;
     margin-left: 1%;
@@ -251,6 +266,7 @@ a{
     font-size: 30px;
     color: ghostwhite;
     font-family: Verdana;
+    margin-left: 1%;
 }
 
 .contact{
@@ -259,6 +275,7 @@ a{
     color: black;
     font-family: Verdana;
     font-weight: bold;
+    margin-top: -1%;
 }
 
 #submitt{
@@ -278,4 +295,32 @@ a{
     border-top: solid;
     border-top-color: #051c38;
     border-top-width: 2px;
+}
+
+.has-error{
+    background-color: #f59b9b;
+}
+
+.has-success{
+    background-color: #a796ea;
+}
+
+#infoblankname{
+    color: #390808;
+    font-weight: 500;
+}
+
+#infoblankemail{
+    color: #390808;
+    font-weight: 500;
+}
+
+#infoblanknumber{
+    color: #390808;
+    font-weight: 500;
+}
+
+#infoblankdate{
+    color: #390808;
+    font-weight: 500;
 }
