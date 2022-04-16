@@ -2,35 +2,55 @@ body{
     background-image: url("https://i.ibb.co/z2YKw1q/Purple.png");
 }
 
-header{
-    height: 40px;
+#header{
+    height: 60px;
 }
 
 #headername{
     float: left;
-    color: #5b1666;
+    color: #436e4c;
+    background-color: #92bbcd;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #hname{
-    font-size: 40px;
+    font-size: 30px;
     font-family: Georgia;
-    font-weight: 500;
-}
-
-#clickg{
-    font-size: 20px;
-    font-weight: bolder;
-    color: #5b1666;
+    font-weight: bold;
 }
 
 #social{
     float: right;
+    margin-right: 2%;
+}
+
+#dropmenu{
+    background-image: url("https://i.ibb.co/m83bRhg/Dropdown.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dropsocial{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2%;
+    color: #436e4c;
+    background-color: #92bbcd;
 }
 
 .slogo{
-    height: 50px;
-    width: 50px;
-    margin-top: 1%;
+    height: 40px;
+    width: 40px;
+    margin-top: 2%;
+}
+
+.sname{
+    color: #ccdedf;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 a{
@@ -42,7 +62,6 @@ a{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 520px;
-    margin-top: 2%;
 }
 
 .welthank{
@@ -58,7 +77,7 @@ a{
     border-width: 8px;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 20%;
 }
 
 #photo{
@@ -293,7 +312,7 @@ a{
     text-align: center;
     font-weight: bolder;
     border-top: solid;
-    border-top-color: #051c38;
+    border-top-color: #0f3360;
     border-top-width: 2px;
 }
 
