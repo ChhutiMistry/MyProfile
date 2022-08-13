@@ -1,319 +1,229 @@
 body{
-    background-image: url("https://i.ibb.co/z2YKw1q/Purple.png");
+    background-color: black;
 }
 
-#header{
-    height: 60px;
+.myrowforbody{
+    --bs-gutter-x: 0;
 }
 
-#headername{
-    float: left;
-    color: #436e4c;
-    background-color: #92bbcd;
-    margin-left: 2%;
-    margin-top: 0.5%;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-#hname{
+#headbar{
     font-size: 30px;
-    font-family: Georgia;
-    font-weight: bold;
+    color: #91a8c4;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid;
+    border-bottom-color: #0f3360;
+    border-bottom-width: 2px;
+    margin-bottom: 2%;
 }
 
-#social{
-    float: right;
-    margin-right: 2%;
-}
-
-#dropmenu{
-    background-image: url("https://i.ibb.co/m83bRhg/Dropdown.png");
+.left{
+    background-image: url("https://i.ibb.co/k4rV8XY/Blue.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.dropsocial{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 2%;
-    color: #436e4c;
-    background-color: #92bbcd;
+.myphoto{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: #051c38;
 }
 
-.slogo{
-    height: 40px;
-    width: 40px;
-    margin-top: 2%;
+#mynameintro{
+    background-color: #d0cccce0;
+    margin-top: -13%;
+    position: relative;
+    text-align: center;
 }
 
-.sname{
-    color: #ccdedf;
-    font-size: 20px;
+#myname{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#myintro{
+    font-size: 26px;
     font-weight: 500;
+    color: #2c7a3f;
+}
+
+.lefthead{
+    color: #bfb7ee;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-size: 40px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #8da3be;
+    box-shadow: 18px 18px 24px black;
+}
+
+.lefti{
+    height: 46px;
+    width: 46px;
+    margin-left: 50%;
+    background-color: white;
+}
+
+.leftrhead{
+    color: wheat;
+    margin-left: -8%;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.leftrbody{
+    color: whitesmoke;
+    margin-top: -1%;
+    margin-left: -8%;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.leftrbore{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 28px;
 }
 
 a{
+    color: inherit;
     text-decoration: none;
 }
 
-#welcome{
-    background-image: url("https://i.ibb.co/k4rV8XY/Blue.jpg");
+a:hover{
+    color: inherit;
+}
+
+.right{
+    background-image: url("https://i.ibb.co/7nR68jD/Blue-Sky.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 520px;
 }
 
-.welthank{
-    font-size: 100px;
+#myright{
+    margin: 5%;
+}
+
+.righthead{
+    color: #a2c4ee;
     text-align: center;
-    color: aliceblue;
-    font-family: Cambria;
-}
-
-#picture{
-    border: groove;
-    border-color: #083a3a;
-    border-width: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-}
-
-#photo{
-    height: 360px;
-    width: 100%;
-}
-
-#name{
-    text-align: center;
-    font-size: 50px;
-    color: #061f35;
-    border-bottom: solid;
-    border-bottom-color: black;
-    border-bottom-width: 2px;
-}
-
-.heads{
-    font-size: 50px;
-    background-image: url("https://i.ibb.co/k4rV8XY/Blue.jpg");
-    color: aliceblue;
-    margin-top: 2%;
-}
-
-.heads:hover{
-    color: #b6b6d4;
-    box-shadow: 28px 28px 50px #47627f;
-}
-
-.aboutme{
-    font-size: 40px;
-    font-family: Garamond;
-    text-align: center;
-    color: black;
-}
-
-#table{
-    text-align: center;
-    font-size: 22px;
-    margin-top: 3%;
-    color: black;
-}
-
-.thead{
-    text-align: center;
-    font-size: 25px;
-}
-
-#tabledata{
-    font-family: Segoe UI;
-    font-weight: bold;
-    color: rgb(20, 17, 17);
-}
-
-#academicpicm{
-    text-align: center;
-}
-
-.academicpic{
-    height: 600px;
-    width: 80%;
-    margin-top: 2%;
-    border-style: groove;
-    border-color: #746262;
+    font-size: 38px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    border-style: outset;
     border-width: 10px;
+    border-color: #5883b4;
+    box-shadow: -18px -18px 34px #517397;
 }
 
-.skill{
-    height: 100px;
-    width: 100px;
-    border-style: inset;
-    border-color: black;
-    border-width: 2px;
-    background-color: white;
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: 3%;
+#rightpro{
+    color: #b4decb;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
 }
 
-.skill:hover{
-    transform: scale(1.5);
+.rightyear{
+    color: #f3d9f1;
+    font-size: 20px;
 }
 
-#skilll{
-    height: 100px;
-    width: 200px;
-    border-style: inset;
-    border-color: black;
-    border-width: 2px;
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: 3%;
+.rightpost{
+    color: #e8bec4;
+    font-size: 28px;
 }
 
-#skilll:hover{
-    transform: scale(1.5);
+.rightcomp{
+    color: #f5dea8;
+    font-size: 20px;
 }
 
-.hobby{
-    height: 100px;
-    width: 200px;
-    border-style: inset;
-    border-color: black;
-    border-width: 2px;
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-bottom: 3%;
+.rightdesc{
+    color: #f5f5f5;
+    font-size: 17px;
 }
 
-.hobby:hover{
-    transform: scale(1.5);
-}
-
-#hobbby{
-    height: 100px;
-    width: 100px;
-    border-style: inset;
-    border-color: black;
-    border-width: 2px;
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-bottom: 3%;
-}
-
-#hobbby:hover{
-    transform: scale(1.5);
-}
-
-.project{
-    height: 60%;
-    width: 80%;
-    border-style: inset;
-    border-color: black;
-    border-width: 2px;
-}
-
-.projname{
-    font-size: 30px;
-    font-weight: bolder;
-    border-width: 4px;
-    background-color: #051c38;
-    margin-top: 1%;
-}
-
-#mycard1{
+.rightbut{
+    width: 100%;
+    color: #091f45;
+    background-color: #c1abf8;
     text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-#mycard2{
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-#map{
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-#contactme{
-    margin-top: 3%;
-}
-
-#formheadd{
-    color:#4b1b79;
-    font-size: 40px;
-    text-align: center;
+    font-size: 18px;
     font-weight: bold;
+    border-color: #253092;
+    border-width: 5px;
+    border-style: ridge;
+}
+
+.dropdown-menu{
+    text-align: center;
+    background-color: #9596d8;
+}
+
+.dropdown-item{
+    font-weight: bold;
+    background-color: #9596d8;
+}
+
+#formhead{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    border-color: #253092;
+    border-width: 10px;
+    border-style: ridge;
+}
+
+.forrrm{
+    color:#2434d8;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
 }
 
 .forrm{
-    color:#253092;
+    color:#2434d8;
     font-size: 25px;
     font-weight: bold;
-    margin-left: 1%;
+    margin-top: 3%;
 }
 
 .geender{
+    color: white;
     font-size: 20px;
     font-weight: bolder;
-    margin-left: 3%;
-}
-
-#natureback{
-    background-image: url("https://i.ibb.co/GVxdWq9/nature.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 103%;
-    height: 300px;
-}
-
-#formm{
-    margin-top: 1%;
-}
-
-#thankback{
-    background-image: url("https://i.ibb.co/k4rV8XY/Blue.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
-
-.contactt{
-    font-size: 30px;
-    color: ghostwhite;
-    font-family: Verdana;
-    margin-left: 1%;
-}
-
-.contact{
-    font-size: 40px;
-    text-align: center;
-    color: black;
-    font-family: Verdana;
-    font-weight: bold;
-    margin-top: -1%;
+    margin-left: 5%;
 }
 
 #submitt{
-    float: right;
+    width: 20%;
+    display: block;
     font-size: 20px;
     font-weight: bolder;
     border-width: 4px;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #051c38;
 }
 
 #copyright{
     font-size: 30px;
-    color: #051c38;
+    color: #91a8c4;
     text-align: center;
     font-weight: bolder;
     border-top: solid;
     border-top-color: #0f3360;
     border-top-width: 2px;
+    margin-top: 2%;
 }
 
 .has-error{
