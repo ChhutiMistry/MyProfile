@@ -75,3 +75,18 @@ const validateinfomessage = () => {
         infodonemessage.classList.add('has-success')
     }
 }
+
+const validatesubmission = () => {
+    var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method : "POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+                }).then(
+                    response => response.json()).then((html) => {
+            alert('FORM Submitted successfully')
+            // window.location.href = 'https://yourwebsite.com/thank-you';
+        });
+    });
+}
