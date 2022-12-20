@@ -256,3 +256,24 @@ a:hover{
     color: #390808;
     font-weight: 500;
 }
+
+.fores{
+    margin-top: 5%;
+}
+
+.formttext{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#formiimg{
+    height: 60%;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
