@@ -76,17 +76,10 @@ const validateinfomessage = () => {
     }
 }
 
-const validatesubmission = () => {
-    var form = document.getElementById('sheetdb-form');
-        form.addEventListener("submit", e => {
-            e.preventDefault();
-            fetch(form.action, {
-                method : "POST",
-                body: new FormData(document.getElementById("sheetdb-form")),
-                }).then(
-                    response => response.json()).then((html) => {
-            alert('FORM Submitted successfully')
-            // window.location.href = 'https://yourwebsite.com/thank-you';
-        });
-    });
-}
+document.onkeydown = function(event) {
+    if (event.keyCode == 123) return false;
+    if (event.ctrlKey && event.shiftKey && event.keyCode == 'I'.charCodeAt(0)) return false;
+    if (event.ctrlKey && event.shiftKey && event.keyCode == 'C'.charCodeAt(0)) return false;
+    if (event.ctrlKey && event.shiftKey && event.keyCode == 'J'.charCodeAt(0)) return false;
+    if (event.ctrlKey && event.keyCode == 'U'.charCodeAt(0)) return false;
+  }
