@@ -1,279 +1,305 @@
 body{
-    background-color: black;
+   background-color: black;
 }
 
 .myrowforbody{
-    --bs-gutter-x: 0;
+   --bs-gutter-x: 0;
 }
 
 #headbar{
-    font-size: 30px;
-    color: #91a8c4;
-    text-align: center;
-    font-weight: bolder;
-    border-bottom: solid;
-    border-bottom-color: #0f3360;
-    border-bottom-width: 2px;
-    margin-bottom: 5%;
+   font-size: 30px;
+   color: #91a8c4;
+   text-align: center;
+   font-weight: bolder;
+   border-bottom: solid;
+   border-bottom-color: #0f3360;
+   border-bottom-width: 2px;
+   margin-bottom: 5%;
 }
 
 .left{
-    background-image: url("https://i.ibb.co/k4rV8XY/Blue.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+   background-image: url("https://i.ibb.co/f9vrvkH/Left-green-sky.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 
 .myphoto{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-style: ridge;
-    border-width: 10px;
-    border-color: #051c38;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border-style: ridge;
+   border-width: 10px;
+   border-color: #0b784b;
+   box-shadow: -40px -40px 42px #c9eea2;
 }
 
 #mynameintro{
-    background-color: #d0cccce0;
-    margin-top: -13%;
-    position: relative;
-    text-align: center;
+   background-color: #d0cccce0;
+   margin-top: -13%;
+   position: relative;
+   text-align: center;
 }
 
 #myname{
-    font-size: 50px;
-    font-weight: 700;
+   font-size: 50px;
+   font-weight: 700;
+   font-family:Papyrus;
+   padding-top: 12px;
 }
 
 #myintro{
-    font-size: 26px;
-    font-weight: 500;
-    color: #2c7a3f;
+   font-size: 26px;
+   font-weight: 500;
+   color: #2c7a3f;
+   padding-bottom: 8px;
 }
 
 .lefthead{
-    color: #bfb7ee;
-    text-align: center;
-    margin-top: 7%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    font-size: 40px;
-    border-style: inset;
-    border-width: 10px;
-    border-color: #8da3be;
-    box-shadow: 18px 18px 24px black;
+   color: #bfb7ee;
+   text-align: center;
+   margin-top: 7%;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 5%;
+   font-size: 40px;
+   border-style: inset;
+   border-width: 10px;
+   border-color: #8da3be;
+   box-shadow: 18px 18px 24px black;
 }
 
 .lefti{
-    height: 46px;
-    width: 46px;
-    margin-left: 50%;
-    background-color: white;
+   height: 46px;
+   width: 46px;
+   margin-left: 50%;
+   background-color: white;
 }
 
 .leftrhead{
-    color: wheat;
-    margin-left: -8%;
-    font-size: 22px;
-    line-height: 20px;
+   color: wheat;
+   margin-left: -8%;
+   font-size: 22px;
+   line-height: 20px;
 }
 
 .leftrbody{
-    color: whitesmoke;
-    margin-top: -1%;
-    margin-left: -8%;
-    font-size: 24px;
-    line-height: 25px;
+   color: whitesmoke;
+   margin-top: -1%;
+   margin-left: -8%;
+   font-size: 24px;
+   line-height: 25px;
 }
 
 .leftrbore{
-    color: whitesmoke;
-    text-align: center;
-    font-size: 28px;
+   color: whitesmoke;
+   text-align: center;
+   font-size: 28px;
 }
 
 a{
-    color: inherit;
-    text-decoration: none;
+   color: inherit;
+   text-decoration: none;
 }
 
 a:hover{
-    color: inherit;
+   color: inherit;
 }
 
 .right{
-    background-image: url("https://i.ibb.co/7nR68jD/Blue-Sky.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+   background-image: url("https://i.ibb.co/wJkz8xK/Right-green-sky.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 
 #myright{
-    margin: 5%;
+   margin: 5%;
 }
 
 .righthead{
-    color: #a2c4ee;
-    text-align: center;
-    font-size: 38px;
-    margin-top: 6%;
-    margin-bottom: 2%;
-    border-style: outset;
-    border-width: 10px;
-    border-color: #5883b4;
-    box-shadow: -18px -18px 34px #517397;
+   color: #a2c4ee;
+   text-align: center;
+   font-size: 38px;
+   margin-top: 6%;
+   margin-bottom: 2%;
+   border-style: outset;
+   border-width: 10px;
+   border-color: #5883b4;
+   box-shadow: -18px -18px 34px #517397;
 }
 
 #rightpro{
-    color: #b4decb;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
+   color: #76f7bd;
+   font-size: 25px;
+   font-weight: 500;
+   font-family: ui-serif;
+   text-align: justify;
+   line-height: 28px;
+   padding-top: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+#rightprod{
+   color: #f7768c;
+   font-size: 36px;
+   font-weight: 600;
+   font-family: math;
+   text-align: center;
+   line-height: 60px;
+   padding-top: 160px;
+   padding-left: 40px;
+   padding-right: 40px;
 }
 
 .rightyear{
-    color: #f3d9f1;
-    font-size: 20px;
+   color: #f3d9f1;
+   font-size: 20px;
 }
 
 .rightpost{
-    color: #e8bec4;
-    font-size: 28px;
+   color: #e8bec4;
+   font-size: 28px;
 }
 
 .rightcomp{
-    color: #f5dea8;
-    font-size: 20px;
+   color: #f5dea8;
+   font-size: 20px;
+}
+
+#skl{
+   color: #0d6efd;
+   text-decoration: underline;
 }
 
 .rightdesc{
-    color: #f5f5f5;
-    font-size: 17px;
+   color: #f5f5f5;
+   font-size: 17px;
 }
 
 .rightbut{
-    width: 100%;
-    color: #091f45;
-    background-color: #c1abf8;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    border-color: #253092;
-    border-width: 5px;
-    border-style: ridge;
+   width: 100%;
+   color: #091f45;
+   background-color: #c1abf8;
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+   border-color: #253092;
+   border-width: 5px;
+   border-style: ridge;
 }
 
 .dropdown-menu{
-    text-align: center;
-    background-color: #9596d8;
+   text-align: center;
+   background-color: #9596d8;
 }
 
 .dropdown-item{
-    font-weight: bold;
-    background-color: #9596d8;
+   font-weight: bold;
+   background-color: #9596d8;
 }
 
 #formhead{
-    margin-top: 5%;
-    color: whitesmoke;
-    font-family: 'Courier New';
-    font-size: 36px;
-    font-weight: bolder;
-    text-align: center;
-    border-color: #253092;
-    border-width: 10px;
-    border-style: ridge;
+   margin-top: 5%;
+   color: whitesmoke;
+   font-family: 'Courier New';
+   font-size: 36px;
+   font-weight: bolder;
+   text-align: center;
+   border-color: #253092;
+   border-width: 10px;
+   border-style: ridge;
 }
 
 .forrrm{
-    color:#2434d8;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 2%;
+   color:#2434d8;
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 2%;
 }
 
 .forrm{
-    color:#2434d8;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 3%;
+   color:#2434d8;
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 3%;
 }
 
 .geender{
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
-    margin-left: 5%;
+   color: white;
+   font-size: 20px;
+   font-weight: bolder;
+   margin-left: 5%;
 }
 
 #submitt{
-    width: 20%;
-    display: block;
-    font-size: 20px;
-    font-weight: bolder;
-    border-width: 4px;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #051c38;
+   width: 20%;
+   display: block;
+   font-size: 20px;
+   font-weight: bolder;
+   border-width: 4px;
+   margin-top: 2%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #051c38;
 }
 
 #copyright{
-    font-size: 30px;
-    color: #91a8c4;
-    text-align: center;
-    font-weight: bolder;
-    border-top: solid;
-    border-top-color: #0f3360;
-    border-top-width: 2px;
-    margin-top: 2%;
+   font-size: 30px;
+   color: #91a8c4;
+   text-align: center;
+   font-weight: bolder;
+   border-top: solid;
+   border-top-color: #0f3360;
+   border-top-width: 2px;
+   margin-top: 2%;
 }
 
 .has-error{
-    background-color: #f59b9b;
+   background-color: #f59b9b;
 }
 
 .has-success{
-    background-color: #a796ea;
+   background-color: #a796ea;
 }
 
 #infoblankname{
-    color: #390808;
-    font-weight: 500;
+   color: #390808;
+   font-weight: 500;
 }
 
 #infoblankemail{
-    color: #390808;
-    font-weight: 500;
+   color: #390808;
+   font-weight: 500;
 }
 
 #infoblanknumber{
-    color: #390808;
-    font-weight: 500;
+   color: #390808;
+   font-weight: 500;
 }
 
 #infoblankdate{
-    color: #390808;
-    font-weight: 500;
+   color: #390808;
+   font-weight: 500;
 }
 
 .fores{
-    margin-top: 5%;
+   margin-top: 5%;
 }
 
 .formttext{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
 }
 
 #formiimg{
-    height: 60%;
-    width: 60%;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+   height: 60%;
+   width: 60%;
+   margin-top: 2%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
 }
